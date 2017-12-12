@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+	title = 'basic JS integration!';
+	view_carousel:boolean=true;
+
+	public	enable():void {this.view_carousel=true;}
+	public	disable():void {this.view_carousel=false;}
 }
